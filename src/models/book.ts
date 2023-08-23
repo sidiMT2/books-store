@@ -1,9 +1,11 @@
 
     export default interface Book {
-        id: String;
-        name: String;
-        author: String;
-        publisher: String;
+        id: string;
+        name: string;
+        author: string;
+        publisher: string;
         price: Number;
         qty: Number;
+        img:string;
+        category:string;
     }
